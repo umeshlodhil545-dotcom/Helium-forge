@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 contract HeliumForge {
-    mapping(address => uint256) public balances; // User's ETH balance for forging
+    mapping(address => uint256) public  balances; // User's ETH balance for forging
     mapping(address => uint256) public heliumTokens; // Forged helium tokens
 
     // Core Function 1: Deposit ETH to start forging
